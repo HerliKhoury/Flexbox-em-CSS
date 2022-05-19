@@ -51,10 +51,16 @@
         .space-around{
             justify-content: space-around;
         }
+
+        .column{
+            flex-direction: column;
+            min-height: 300px;
+        }
         
     </style>
 </head>
 <body>
+    <h1>Rows</h1>
     <p>Flex-start</p>
     <section class="container flex-start">
         <div class="item">1</div>
@@ -89,6 +95,50 @@
 
     <p>Space space-around</p>
     <section class="container space-around">
+        <div class="item-pequeno">1</div>
+        <div class="item-pequeno">2</div>
+        <div class="item-pequeno">3</div>
+        <div class="item-pequeno">4</div>
+        <div class="item-pequeno">5</div>
+        <div class="item-pequeno">6</div>
+        <div class="item-pequeno">7</div>
+    </section>
+
+    <h1>Columns</h1>
+    <p>Flex-start</p>
+    <section class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">terceiro item</div>
+    </section>
+
+    <p>Flex-end</p>
+    <section class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">terceiro item</div>
+    </section>
+
+    <p>Center</p>
+    <section class="container center column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">terceiro item</div>
+    </section>
+
+    <p>Space between</p>
+    <section class="container space-between column">
+        <div class="item-pequeno">1</div>
+        <div class="item-pequeno">2</div>
+        <div class="item-pequeno">3</div>
+        <div class="item-pequeno">4</div>
+        <div class="item-pequeno">5</div>
+        <div class="item-pequeno">6</div>
+        <div class="item-pequeno">7</div>
+    </section>
+
+    <p>Space space-around</p>
+    <section class="container space-around column">
         <div class="item-pequeno">1</div>
         <div class="item-pequeno">2</div>
         <div class="item-pequeno">3</div>
